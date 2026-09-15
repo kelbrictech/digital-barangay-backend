@@ -23,10 +23,10 @@ const bcrypt = require('bcryptjs');
 const prisma = require('../src/config/prisma');
 
 const DEMO_ADMINS = [
-  { staffId: 'ADM-0002', fullName: 'Rosario Mendez (Demo)', email: 'demo.admin2@digitalbarangay.local', envVar: 'DEMO_ADMIN_2_PASSWORD' },
-  { staffId: 'ADM-0003', fullName: 'Teodoro Villanueva (Demo)', email: 'demo.admin3@digitalbarangay.local', envVar: 'DEMO_ADMIN_3_PASSWORD' },
-  { staffId: 'ADM-0004', fullName: 'Josefa Ramirez (Demo)', email: 'demo.admin4@digitalbarangay.local', envVar: 'DEMO_ADMIN_4_PASSWORD' },
-  { staffId: 'ADM-0005', fullName: 'Nestor Aquino (Demo)', email: 'demo.admin5@digitalbarangay.local', envVar: 'DEMO_ADMIN_5_PASSWORD' },
+  { staffId: 'ADM-0002', fullName: 'Rosario Mendez (Demo)', email: 'demo.admin2@vico.local', envVar: 'DEMO_ADMIN_2_PASSWORD' },
+  { staffId: 'ADM-0003', fullName: 'Teodoro Villanueva (Demo)', email: 'demo.admin3@vico.local', envVar: 'DEMO_ADMIN_3_PASSWORD' },
+  { staffId: 'ADM-0004', fullName: 'Josefa Ramirez (Demo)', email: 'demo.admin4@vico.local', envVar: 'DEMO_ADMIN_4_PASSWORD' },
+  { staffId: 'ADM-0005', fullName: 'Nestor Aquino (Demo)', email: 'demo.admin5@vico.local', envVar: 'DEMO_ADMIN_5_PASSWORD' },
 ];
 
 const run = async () => {

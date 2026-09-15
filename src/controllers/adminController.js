@@ -89,7 +89,7 @@ const updateConcernStatus = asyncHandler(async (req,res) => {
 });
 
 function legacyAction(h){
-  if(String(h.note||'').startsWith('Imported from Digital Barangay')) return 'imported_state';
+  if(/^Imported from (?:VICO|Digital Barangay)/.test(String(h.note||''))) return 'imported_state';
   return h.fromStatus===null?'created':'status_changed';
 }
 

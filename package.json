@@ -1,7 +1,7 @@
 {
-  "name": "digital-barangay-backend",
+  "name": "vico-backend",
   "version": "1.0.0",
-  "description": "Backend API for the Digital Barangay full-stack app",
+  "description": "Backend API for the VICO full-stack app",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {

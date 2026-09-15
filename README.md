@@ -1,12 +1,12 @@
-# Digital Barangay — Backend API
+# VICO — Backend API
 
-Production backend for the Digital Barangay full-stack application, supporting resident services, barangay operations, and separated Webmaster credential governance.
+Production API for VICO, a community member-facing service delivery application supporting resident services, barangay operations, and separated Webmaster credential governance.
 
 ## Current release
 
 **v1.1.0 — live in production**
 
-**Frontend / Live Demo:** https://kelbrictech.github.io/Digital-Barangay-App/
+**Frontend / Live Demo:** https://kelbrictech.github.io/VICO/
 
 **Backend API:** https://digital-barangay-backend.onrender.com/
 
@@ -111,7 +111,7 @@ The production backend commit for v1.1.0 is preserved by the `v1.1.0` Git tag.
 
 The public application and resident/admin/webmaster interfaces live in the companion repository:
 
-https://github.com/kelbrictech/Digital-Barangay-App
+https://github.com/kelbrictech/VICO
 
 ## Status
 

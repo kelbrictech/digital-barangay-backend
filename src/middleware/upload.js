@@ -5,7 +5,7 @@ const cloudinary = require('../config/cloudinary');
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: 'digital-barangay',
+    folder: 'vico',
     allowed_formats: ['jpg', 'jpeg', 'png', 'pdf'],
   },
 });

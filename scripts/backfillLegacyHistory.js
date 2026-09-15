@@ -9,7 +9,7 @@
 //   actorUserId  = null
 //   actorType    = 'system'
 //   actorStaffId = null
-//   note         = 'Imported from Digital Barangay v1.0.0'
+//   note         = 'Imported from VICO v1.0.0'
 //
 // The legacy DocumentRequest.statusHistory JSON field is never read,
 // rewritten, or deleted by this script — it's left exactly as-is.
@@ -46,7 +46,7 @@ const run = async () => {
           actorUserId: null,
           actorType: 'system',
           actorStaffId: null,
-          note: 'Imported from Digital Barangay v1.0.0',
+          note: 'Imported from VICO v1.0.0',
         },
       });
     }
@@ -60,7 +60,7 @@ const run = async () => {
           actorUserId: null,
           actorType: 'system',
           actorStaffId: null,
-          note: 'Imported from Digital Barangay v1.0.0',
+          note: 'Imported from VICO v1.0.0',
         },
       });
     }

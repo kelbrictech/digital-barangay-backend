@@ -1,5 +1,5 @@
 /**
- * DEPRECATED / RETIRED IN DIGITAL BARANGAY v1.1.0
+ * DEPRECATED / RETIRED IN VICO v1.1.0
  *
  * This legacy v1.0 bootstrap command previously created Admin users directly
  * and could promote an existing resident to Admin. That behavior bypasses the
@@ -23,7 +23,7 @@
 
 console.error(
   [
-    'seed:admin is retired in Digital Barangay v1.1.0.',
+    'seed:admin is retired in VICO v1.1.0.',
     'Direct Admin creation/promotion would bypass Webmaster credential governance.',
     'Use bootstrapExistingAdmin.js for the existing ADM-0001 account,',
     'seedDemoAdmins.js for approved demo accounts, or the Webmaster credentialing workflow.',
