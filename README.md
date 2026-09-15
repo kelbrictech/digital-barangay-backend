@@ -6,11 +6,13 @@ Production API for VICO, a community member-facing service delivery application 
 
 **v1.1.0 — live in production**
 
-**Frontend / Live Demo:** https://kelbrictech.github.io/VICO/
+**Frontend / Live Demo:** https://kelbrictech.github.io/Digital-Barangay-App/
 
 **Backend API:** https://digital-barangay-backend.onrender.com/
 
 Health check: `https://digital-barangay-backend.onrender.com/api/health`
+
+The repository and deployed-service slugs remain stable infrastructure identifiers; the product identity is VICO.
 
 ## Stack
 
@@ -111,7 +113,7 @@ The production backend commit for v1.1.0 is preserved by the `v1.1.0` Git tag.
 
 The public application and resident/admin/webmaster interfaces live in the companion repository:
 
-https://github.com/kelbrictech/VICO
+https://github.com/kelbrictech/Digital-Barangay-App
 
 ## Status
 
